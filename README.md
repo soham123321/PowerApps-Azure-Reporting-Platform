@@ -1,2 +1,10 @@
 # PowerApps-Azure-Reporting-Platform
-This project aims to create a concise, easy-to-implement database management system to solve the above problems with following features: a. Single Data Collection Platform: This will avoid the inconsistency in data from different food service centers. This ensures that data is stored in a required format for further analysis and is consistent across the university.  b. Consumption / Produced Ratio: This ratio is an effective way of tracking the food consumed to food produced. This ratio tells us the amount of inventory or food that was wasted at different food service centers. c. Tracking Waste: Different reports to track food wastage, inventory wastage, and overall wastage are provided to have a quick overview of the types of waste generated at different food service centers. d. Tracking Cost. All costs are recorded in the database and amounts for above mentioned reports are programmatically calculated. The cost report in the system is a quarterly report used to track the cost incurred at different food service centers. Currently the database does a good job calculating costs for different types of waste and food service centers. Further enhancements to manage inventory can be implemented in the same system but is currently out of the scope of this project.
+Objective: Create a Database management system for Data collection & analysis for food service centers
+Technologies: SSIS, Azure SQL, Azure VM, SQL server, Microsoft PowerApps, Microsoft Power BI
+
+Summary:
+The proposed solution uses PowerApps to create a front end app to gather data from users. The data from the app will be stored in a staging database hosted on a Azure VM. SSIS will be used for data cleaning and storing the data in the database.
+
+Highlights: 
+Stored procedures, Triggers & functions are scripted in the final database to perform calculations, data validation & maintain data integrity.
+
